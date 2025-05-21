@@ -1,0 +1,28 @@
+package colors
+
+var Reset            = "\033[0m"
+var Red              = "\033[31m"
+var Green            = "\033[32m"
+var Yellow           = "\033[33m"
+var Blue             = "\033[34m"
+var Purple           = "\033[35m"
+var Cyan             = "\033[36m"
+var Gray             = "\033[37m"
+var White            = "\033[97m"
+
+var BrightRed        = "\033[1;31m"
+var BrightGreen      = "\033[1;32m"
+var BrightYellow     = "\033[1;33m"
+var BrightBlue       = "\033[1;34m"
+var BrightPurple     = "\033[1;35m"
+var BrightCyan       = "\033[1;36m"
+var BrightGray       = "\033[1;37m"
+
+var Black            = "\033[30m"
+var DarkRed          = "\033[38;5;160m"
+var DarkGreen        = "\033[38;5;28m"
+var DarkYellow       = "\033[38;5;214m"
+var DarkBlue         = "\033[38;5;12m"
+var DarkPurple       = "\033[38;5;129m"
+var DarkCyan         = "\033[38;5;38m"
+var DarkGray         = "\033[38;5;241m"

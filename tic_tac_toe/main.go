@@ -207,7 +207,7 @@ func main() {
 	stdinReader := bufio.NewReader(os.Stdin)
 	choice := consts.ACTION_PLAY
 	for choice != consts.ACTION_EXIT {
-		PrintMenu(currSymbol == consts.SYM_CROSS)
+		PrintMenu(currSymbol == consts.SYM_ZERO)
 		fmt.Printf("Choose an option: ")
 		choice, err := GetNumberFromInput(stdinReader)
 		if err != nil {
